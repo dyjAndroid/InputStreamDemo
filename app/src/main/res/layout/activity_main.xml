@@ -22,6 +22,20 @@
         android:textAllCaps="false"
         android:text="FileInputStream"
         android:onClick="onClick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buffered_input_stream"
+        android:textAllCaps="false"
+        android:text="BufferedInputStream "
+        android:onClick="onClick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buffered_output_stream"
+        android:textAllCaps="false"
+        android:text="BufferedOutputStream "
+        android:onClick="onClick"/>
 
 
 
